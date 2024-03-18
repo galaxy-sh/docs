@@ -1,0 +1,64 @@
+site_name: Galaxy.sh Wiki
+theme:
+  name: material
+  logo: localassets/galaxy-logo-square-white-transparent.svg
+  favicon: localassets/favicon-32x32.png
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: grey
+      toggle:
+        icon: material/weather-sunny 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: grey
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - navigation.indexes
+    - content.code.copy
+    - content.code.select
+    - content.tooltips
+    - content.footnote.tooltips
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: ⚓︎
+      permalink_title: Link to this heading
+      title: On this page
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+  - pymdownx.keys:
+      separator: +
+      strict: false
+      camel_case: false
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      enabled: true
+      type: date
+      fallback_to_build_date: true
+      exclude:
+        - index.md
+  - search
+  - awesome-pages
+copyright: CC &copy; 2024 Black Cat Labs + Galaxy.sh  |  This work is openly licensed via CC BY-SA 4.0.
