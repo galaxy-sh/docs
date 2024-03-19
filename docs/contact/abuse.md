@@ -1,11 +1,13 @@
 # Reporting Abuse
 
 ## :octicons-shield-16: Reporting Abuse
-Please report any violations of our [policies](../policies) to:
+Please report any violations of our [policies](../policies/about.md) to:
 ```
 abuse@galaxy.sh
 ```
 
+## :material-text-box-outline: Abuse Handling Policy
+Please see our [:material-arrow-right:Abuse Policy](../policies/abuse.md) to learn about how we handle Abuse reports.
 
-## How we handle abuse reports
-When we receive a report of abuse, we investigate promptly and thoroughly. We want to address the issue fairly, and with compassion and dignity for all involved. We try to assume positive intent (where it makes sense to do so), and will work with everyone involved to take care of things in the right way.
+## :material-scale-balance: DMCA Notifications
+Please see our [:material-arrow-right:DMCA guidelines](../policies/dmca.md) page for the DMCA notification process and how we handle DMCA notifications.
