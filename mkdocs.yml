@@ -63,3 +63,5 @@ plugins:
   - search
   - awesome-pages
 copyright: CC &copy; 2024 Black Cat Labs + Galaxy.sh  |  This work is openly licensed via CC BY-SA 4.0.
+repo_url: https://github.com/galaxy-sh/docs
+repo_name: galaxy-sh/docs
