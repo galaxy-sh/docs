@@ -1,4 +1,4 @@
-# Reporting Bugs & Vulnerabilities
+# Responsible Bug Reporting
 We sincerely appreciate the work of security researchers, bug hunters, and anyone who’s willing to take the time to let us know about something that’s broken. It’s incredibly helpful, especially to a small independent service like this one.
 
 ## :material-bug: Reporting Bugs
@@ -11,4 +11,70 @@ bugs@galaxy.sh
 If you believe you’ve discovered a serious security issue, please contact: 
 ```
 security@galaxy.sh
+```
+
+## :material-folder-key: Secure File Transfer
+If you need a secure file transfer link to send us files, please let us know and we'll send you a link:
+```
+security@galaxy.sh
+```
+
+## :material-key: PGP Key
+If you'd like to encrypt your email, you can use this PGP to communicate with us securely:
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+6SojEYM=
+=YDVT
+-----END PGP PUBLIC KEY BLOCK-----
 ```
