@@ -3,7 +3,7 @@
 ## :octicons-shield-16: Reporting Abuse
 Please report any violations of our [policies](../policies/about.md) to:
 ```
-abuse@galaxy.sh
+abuse@blackcatlabs.dev
 ```
 
 ## :material-text-box-outline: Abuse Handling Policy
